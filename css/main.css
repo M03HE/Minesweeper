@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    background-image: url("https://images3.alphacoders.com/178/178429.jpg");
+    background-color: #cccccc;
+    height: auto;
+    margin: auto;
+    font-size: 70%;
+       
+}
+.levels{
+    text-align: center;
+    padding: auto;
+    opacity: 0.95;
+    
+}
+.levels button{
+    color: rgb(124, 124, 240);
+    background-color: rgb(226, 215, 225);
+    margin:1px
+}
+.board td{
+    width: 27px;
+    height: 27px;
+    transition: 0.1s;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cell{
+    background-color: rgb(164, 164, 245);
+    opacity: 0.8;
+}
+.selected{
+    background-color:rgb(184, 182, 182) ;
+    opacity: 0.9;
+}
+.mine{
+    background-color: red;
+}
+.resetbtn{
+    background-color: rgb(226, 215, 215);
+    width: 25%;
+    height: 500%;
+    margin-top: 4px;
+    font-size : 150%;
+    padding: auto;
+}
+.minesbtn{
+    background-color: rgb(226, 215, 215);
+    color: red;
+    font-size: 100%;
+    opacity: 0.8;
+    margin-left: 1px;
+}
+.livesbtn{
+    background-color: rgb(226, 215, 215);
+    color:rgb(124, 124, 240);
+    font-size: 100%;
+    opacity: 0.85;
+}
+.backgroundDeck{
+    background: rgba(175, 175, 245, .4);  
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 1%;
+    border-radius: 25px;
+}
+.backgroundScore{
+    background: rgba(175, 175, 245, .4); 
+    margin: auto;
+    border-radius: 25px;
+    width: 15%;
+    text-align: center;
+}
+.timer{
+    background-color: rgb(226, 215, 225);
+    opacity: 0.8;
+    margin-bottom: 0.8px;
+}
